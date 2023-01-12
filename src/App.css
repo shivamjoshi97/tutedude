@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+body{
+  background-color: #fff !important;
+}
+.nav-text-muted
+{
+  color: rgba(128, 0, 128, 0.25) !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+}
+.nav-text-active
+{
+  color: #800080;
+  font-weight: 500;
+  font-size: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box{
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0px 3px 100px 0px rgba(0, 0, 0, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box-text
+{
+font-weight: 400;
+font-size: 13px;
+color: #800080;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.box-tex
+{
+font-weight: 500;
+font-size: 32px;
+color: #000000;
 }
 
-.App-link {
-  color: #61dafb;
+.ref-box{
+  border-radius: 10px;
+  /* border: 1.5px solid #111; */
+  background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+  padding: 0.1px;
+  /* border-image-source: linear-gradient(270deg, #800080 0%, #FF864C 100%); */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ref-text{
+font-weight: 500;
+font-size: 20px;
+letter-spacing: 1.5em;
+color: #800080;
+
+}
+.working{
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+color: #800080;
+}
+
+.icon-box
+{
+width: 65px;
+height: 65px;
+left: 189px;
+top: 467px;
+background: rgba(217, 217, 217, 0.25);
+border-radius: 50%;
+}
+
+.text-purple
+{
+  color: rgba(128, 0, 128, 1);
+}
+
+.ref-code{
+  border: 1.5px solid #DFDFDF;
+border-radius: 10px;
+}
+
+.ref-text2{
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.75em;
+
+color: #000000;
+}
+
+.balance
+{
+  background: #FFFFFF;
+box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+border-radius: 20px;
+}
+
+.friend-box{
+  background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+border-radius: 20px;
+}
+
+.course{
+  /* background: rgba(238, 174, 174, 1); */
+  border: 1.5px solid rgba(238, 174, 174, 1);
+  border: 1.5px solid #EEAEAE;
+  border-radius: 20px;
+}
+
+.withdraw
+{
+  min-width: 100px;
+background: #800080;
+border-radius: 20px;
+}
+
+.navlink{
+  color: #111 !important;
+  cursor: pointer;
 }
